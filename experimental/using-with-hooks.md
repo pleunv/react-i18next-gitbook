@@ -16,22 +16,22 @@ Just forget everything...go to the current getting started guide 😄. Nothing w
 
 ## Took the red pill: Learn about the new react-i18next 🌈
 
-So there it is **v10.0.0-alpha.1** of react-i18next.
+So there it is **v10.0.0** of react-i18next.
 
 ```bash
-npm i react-i18next@next
+npm i react-i18next
 ```
 
 From here everything gets easier.
 
 ### Install needed dependencies
 
-We expect you having an existing react application supporting [hooks](https://reactjs.org/docs/hooks-intro.html) \(v16.7.0-alpha of react and react-dom\).
+We expect you having an existing react application supporting [hooks](https://reactjs.org/docs/hooks-intro.html) \(v16.8.0 or higher of react and react-dom\).
 
 Install both react-i18next and i18next package:
 
 ```bash
-npm install react-i18next@next i18next --save
+npm install react-i18next i18next --save
 
 // when like to detect user language and load translation
 npm install i18next-xhr-backend i18next-browser-languagedetector --save
